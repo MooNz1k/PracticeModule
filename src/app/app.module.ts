@@ -14,6 +14,7 @@ import { PageNotFoundComponent } from "./page-not-found.component";
 import { LoginModule } from "./login/login.module";
 import { AppRoutingModule } from "./app-routing.module";
 import { CustomerService } from './customer/customer.service';
+import { CriteriaComponent } from './customer/criteria/criteria.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { CustomerService } from './customer/customer.service';
     CustomerComponent,
     HomeComponent,
     PageNotFoundComponent,
+    CriteriaComponent,
  
   ],
   imports: [
